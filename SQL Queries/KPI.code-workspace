@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../../Analyzing U.S. Electric Vehicle Market Share"
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "us_ev_registration",
+				"database": "us_ev_registration",
+				"username": "postgres"
+			},
+			{
+				"ssh": "Disabled",
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 5432,
+				"driver": "PostgreSQL",
+				"name": "Bank Loan DB",
+				"database": "postgres",
+				"username": "postgres"
+			}
+		]
+	}
+}
